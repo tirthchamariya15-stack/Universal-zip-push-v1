@@ -1,0 +1,10 @@
+Universal GitHub ZIP Pusher: single-file version
+================================================
+index.html  = the whole app (HTML + CSS + JS inline, no server, no build step, no dependencies)
+assets/     = logo images and background song (real files, keep this folder next to index.html)
+
+Use it:
+  * Double-click index.html (works from file://), or
+  * Upload this folder as a STATIC site (Vercel: framework "Other", no build command, output = this folder;
+    Netlify / GitHub Pages / any static host also work).
+Do not deploy server.js: a static site does not need it (that is what caused the 500 error).
